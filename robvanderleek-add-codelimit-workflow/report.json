@@ -1,0 +1,761 @@
+{
+  "version": "0.16.0",
+  "uuid": "e83a31b1-ce74-4c98-acc1-0e96ac474c16",
+  "timestamp": "2024-12-25T08:32:19+00:00",
+  "root": "/github/workspace",
+  "repository": {
+    "owner": "robvanderleek",
+    "name": "siapy-lib",
+    "branch": "HEAD"
+  },
+  "codebase": {
+    "totals": {
+      "Python": {
+        "files": 47,
+        "lines_of_code": 2054,
+        "functions": 235,
+        "hard_to_maintain": 16,
+        "unmaintainable": 1
+      }
+    },
+    "tree": {
+      "./": {
+        "entries": [
+          "docs/",
+          "siapy/"
+        ],
+        "profile": [1035, 348, 608, 63]
+      },
+      "docs/examples/src/": {
+        "entries": [
+          "spectral_imageset_01.py",
+          "transformations_02.py",
+          "visualization_02.py",
+          "transformations_01.py",
+          "transformations_03.py",
+          "spectral_image_01.py",
+          "visualization_01.py",
+          "spectral_image_02.py",
+          "spectral_imageset_load_01.py"
+        ],
+        "profile": [0, 0, 0, 0]
+      },
+      "docs/examples/": {
+        "entries": [
+          "src/"
+        ],
+        "profile": [0, 0, 0, 0]
+      },
+      "docs/": {
+        "entries": [
+          "examples/"
+        ],
+        "profile": [0, 0, 0, 0]
+      },
+      "siapy/": {
+        "entries": [
+          "__version__.py",
+          "__init__.py",
+          "models/",
+          "features/",
+          "optimizers/",
+          "transformations/",
+          "entities/",
+          "datasets/",
+          "core/",
+          "utils/"
+        ],
+        "profile": [1035, 348, 608, 63]
+      },
+      "siapy/models/": {
+        "entries": [
+          "__init__.py",
+          "metrics.py"
+        ],
+        "profile": [22, 51, 0, 0]
+      },
+      "siapy/features/": {
+        "entries": [
+          "spectral_indices.py",
+          "helpers.py",
+          "__init__.py",
+          "features.py"
+        ],
+        "profile": [98, 19, 166, 0]
+      },
+      "siapy/optimizers/": {
+        "entries": [
+          "optimizers.py",
+          "scorers.py",
+          "parameters.py",
+          "__init__.py",
+          "configs.py"
+        ],
+        "profile": [99, 16, 96, 0]
+      },
+      "siapy/transformations/": {
+        "entries": [
+          "image.py",
+          "__init__.py",
+          "corregistrator.py"
+        ],
+        "profile": [65, 20, 43, 0]
+      },
+      "siapy/entities/": {
+        "entries": [
+          "signatures.py",
+          "shapes.py",
+          "__init__.py",
+          "imagesets.py",
+          "pixels.py",
+          "images.py"
+        ],
+        "profile": [323, 90, 31, 0]
+      },
+      "siapy/datasets/": {
+        "entries": [
+          "helpers.py",
+          "schemas.py",
+          "__init__.py",
+          "tabular.py"
+        ],
+        "profile": [172, 18, 32, 0]
+      },
+      "siapy/core/": {
+        "entries": [
+          "exceptions.py",
+          "logger.py",
+          "__init__.py",
+          "configs.py",
+          "types.py"
+        ],
+        "profile": [43, 0, 0, 0]
+      },
+      "siapy/utils/": {
+        "entries": [
+          "validators.py",
+          "plots.py",
+          "__init__.py",
+          "enums.py",
+          "general.py",
+          "evaluators.py",
+          "images.py"
+        ],
+        "profile": [213, 134, 240, 63]
+      }
+    },
+    "files": {
+      "docs/examples/src/spectral_imageset_01.py": {
+        "checksum": "d6544306e293f42b0278af1992161f61",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "docs/examples/src/transformations_02.py": {
+        "checksum": "edd6d1db711e4abd11e4bd61f3cd7f67",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "docs/examples/src/visualization_02.py": {
+        "checksum": "e9c354746a0fe3cf332002c009958dfa",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "docs/examples/src/transformations_01.py": {
+        "checksum": "508944b6093661f05780c97d6beb8d86",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "docs/examples/src/transformations_03.py": {
+        "checksum": "d9744be9d5eee64c5d3ecef9686985af",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "docs/examples/src/spectral_image_01.py": {
+        "checksum": "880b144187b0f24b234074c33dc11b7f",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "docs/examples/src/visualization_01.py": {
+        "checksum": "c4fbb7b814cc54ae31502acbc003968d",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "docs/examples/src/spectral_image_02.py": {
+        "checksum": "a3dff0fbf96aa9ae9240672e9739cd8f",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "docs/examples/src/spectral_imageset_load_01.py": {
+        "checksum": "3fe74d7154e08b4e89194aef3c7259c3",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/__version__.py": {
+        "checksum": "83463a66fdd6100dbc3de44928e4302b",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/__init__.py": {
+        "checksum": "0fce5b7afd70d2588a36e55552502d46",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/models/__init__.py": {
+        "checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/models/metrics.py": {
+        "checksum": "8dc2dff53ce4a67faa1e850f1b7fcd4e",
+        "language": "Python",
+        "loc": 73,
+        "profile": [22, 51, 0, 0],
+        "measurements": [
+          {"unit_name": "normalized_RMSE", "start": {"line": 25, "column": 1}, "end": {"line": 40, "column": 29}, "value": 16},
+          {"unit_name": "__str__", "start": {"line": 49, "column": 5}, "end": {"line": 55, "column": 10}, "value": 7},
+          {"unit_name": "to_dict", "start": {"line": 57, "column": 5}, "end": {"line": 58, "column": 30}, "value": 2},
+          {"unit_name": "__str__", "start": {"line": 71, "column": 5}, "end": {"line": 81, "column": 10}, "value": 11},
+          {"unit_name": "to_dict", "start": {"line": 83, "column": 5}, "end": {"line": 84, "column": 30}, "value": 2},
+          {"unit_name": "calculate_classification_metrics", "start": {"line": 87, "column": 1}, "end": {"line": 102, "column": 6}, "value": 16},
+          {"unit_name": "calculate_regression_metrics", "start": {"line": 105, "column": 1}, "end": {"line": 123, "column": 6}, "value": 19}
+        ]
+      },
+      "siapy/features/spectral_indices.py": {
+        "checksum": "8102e84c47486ed01eff9b08e7d47559",
+        "language": "Python",
+        "loc": 60,
+        "profile": [4, 19, 37, 0],
+        "measurements": [
+          {"unit_name": "_convert_str_to_list", "start": {"line": 23, "column": 1}, "end": {"line": 26, "column": 25}, "value": 4},
+          {"unit_name": "get_spectral_indices", "start": {"line": 29, "column": 1}, "end": {"line": 50, "column": 28}, "value": 19},
+          {"unit_name": "compute_spectral_indices", "start": {"line": 53, "column": 1}, "end": {"line": 93, "column": 14}, "value": 37}
+        ]
+      },
+      "siapy/features/helpers.py": {
+        "checksum": "c39fa1665170646f4602aa5b4081661a",
+        "language": "Python",
+        "loc": 51,
+        "profile": [0, 0, 51, 0],
+        "measurements": [
+          {"unit_name": "feature_selector_factory", "start": {"line": 37, "column": 1}, "end": {"line": 88, "column": 59}, "value": 51}
+        ]
+      },
+      "siapy/features/__init__.py": {
+        "checksum": "3ef7341c8a7e0fe007a309f45a668d3f",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/features/features.py": {
+        "checksum": "df5679d772c88a9db9aba49736ca3472",
+        "language": "Python",
+        "loc": 172,
+        "profile": [94, 0, 78, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 22, "column": 5}, "end": {"line": 60, "column": 10}, "value": 39},
+          {"unit_name": "fit", "start": {"line": 62, "column": 5}, "end": {"line": 64, "column": 34}, "value": 3},
+          {"unit_name": "transform", "start": {"line": 66, "column": 5}, "end": {"line": 69, "column": 32}, "value": 4},
+          {"unit_name": "fit_transform", "start": {"line": 71, "column": 5}, "end": {"line": 76, "column": 32}, "value": 6},
+          {"unit_name": "__init__", "start": {"line": 80, "column": 5}, "end": {"line": 118, "column": 10}, "value": 39},
+          {"unit_name": "fit", "start": {"line": 120, "column": 5}, "end": {"line": 122, "column": 34}, "value": 3},
+          {"unit_name": "transform", "start": {"line": 124, "column": 5}, "end": {"line": 127, "column": 32}, "value": 4},
+          {"unit_name": "fit_transform", "start": {"line": 129, "column": 5}, "end": {"line": 134, "column": 32}, "value": 6},
+          {"unit_name": "__init__", "start": {"line": 138, "column": 5}, "end": {"line": 152, "column": 55}, "value": 15},
+          {"unit_name": "fit", "start": {"line": 154, "column": 5}, "end": {"line": 159, "column": 20}, "value": 6},
+          {"unit_name": "transform", "start": {"line": 161, "column": 5}, "end": {"line": 174, "column": 26}, "value": 14},
+          {"unit_name": "fit_transform", "start": {"line": 176, "column": 5}, "end": {"line": 178, "column": 36}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 182, "column": 5}, "end": {"line": 196, "column": 10}, "value": 15},
+          {"unit_name": "__init__", "start": {"line": 200, "column": 5}, "end": {"line": 214, "column": 10}, "value": 15}
+        ]
+      },
+      "siapy/optimizers/optimizers.py": {
+        "checksum": "cdfe2b6b83c798377b31c2b242ee3a08",
+        "language": "Python",
+        "loc": 122,
+        "profile": [44, 16, 62, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 23, "column": 5}, "end": {"line": 39, "column": 54}, "value": 16},
+          {"unit_name": "from_tabular_dataset_data", "start": {"line": 42, "column": 5}, "end": {"line": 73, "column": 10}, "value": 31},
+          {"unit_name": "study", "start": {"line": 76, "column": 5}, "end": {"line": 77, "column": 27}, "value": 2},
+          {"unit_name": "best_trial", "start": {"line": 80, "column": 5}, "end": {"line": 81, "column": 61}, "value": 2},
+          {"unit_name": "run", "start": {"line": 83, "column": 5}, "end": {"line": 93, "column": 21}, "value": 11},
+          {"unit_name": "get_best_model", "start": {"line": 95, "column": 5}, "end": {"line": 105, "column": 26}, "value": 10},
+          {"unit_name": "objective", "start": {"line": 107, "column": 5}, "end": {"line": 112, "column": 21}, "value": 6},
+          {"unit_name": "_trial_params", "start": {"line": 114, "column": 5}, "end": {"line": 145, "column": 22}, "value": 31},
+          {"unit_name": "scorer", "start": {"line": 147, "column": 5}, "end": {"line": 159, "column": 10}, "value": 13}
+        ]
+      },
+      "siapy/optimizers/scorers.py": {
+        "checksum": "30efdbaa97a207077cc9f6fecc95b268",
+        "language": "Python",
+        "loc": 60,
+        "profile": [26, 0, 34, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 18, "column": 5}, "end": {"line": 19, "column": 30}, "value": 2},
+          {"unit_name": "__call__", "start": {"line": 21, "column": 5}, "end": {"line": 29, "column": 55}, "value": 9},
+          {"unit_name": "init_cross_validator_scorer", "start": {"line": 32, "column": 5}, "end": {"line": 65, "column": 27}, "value": 34},
+          {"unit_name": "init_hold_out_scorer", "start": {"line": 68, "column": 5}, "end": {"line": 82, "column": 27}, "value": 15}
+        ]
+      },
+      "siapy/optimizers/parameters.py": {
+        "checksum": "b89a394bc490dff973d0b6cbea031ddc",
+        "language": "Python",
+        "loc": 29,
+        "profile": [29, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 51, "column": 5}, "end": {"line": 59, "column": 68}, "value": 9},
+          {"unit_name": "from_dict", "start": {"line": 62, "column": 5}, "end": {"line": 75, "column": 10}, "value": 14},
+          {"unit_name": "float_parameters", "start": {"line": 78, "column": 5}, "end": {"line": 79, "column": 38}, "value": 2},
+          {"unit_name": "int_parameters", "start": {"line": 82, "column": 5}, "end": {"line": 83, "column": 36}, "value": 2},
+          {"unit_name": "categorical_parameters", "start": {"line": 86, "column": 5}, "end": {"line": 87, "column": 44}, "value": 2}
+        ]
+      },
+      "siapy/optimizers/__init__.py": {
+        "checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/optimizers/configs.py": {
+        "checksum": "4984d3de5bad6763a3a5ac4ced39df08",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/transformations/image.py": {
+        "checksum": "0f478cb747e2d45271ad32c54b8ba6c9",
+        "language": "Python",
+        "loc": 50,
+        "profile": [50, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "add_gaussian_noise", "start": {"line": 20, "column": 1}, "end": {"line": 32, "column": 20}, "value": 13},
+          {"unit_name": "random_crop", "start": {"line": 35, "column": 1}, "end": {"line": 42, "column": 60}, "value": 8},
+          {"unit_name": "random_mirror", "start": {"line": 45, "column": 1}, "end": {"line": 50, "column": 20}, "value": 6},
+          {"unit_name": "random_rotation", "start": {"line": 53, "column": 1}, "end": {"line": 56, "column": 25}, "value": 4},
+          {"unit_name": "rescale", "start": {"line": 59, "column": 1}, "end": {"line": 63, "column": 26}, "value": 5},
+          {"unit_name": "area_normalization", "start": {"line": 66, "column": 1}, "end": {"line": 80, "column": 61}, "value": 5},
+          {"unit_name": "_signal_normalize", "start": {"line": 69, "column": 5}, "end": {"line": 73, "column": 29}, "value": 5},
+          {"unit_name": "_image_normalization", "start": {"line": 75, "column": 5}, "end": {"line": 78, "column": 65}, "value": 4}
+        ]
+      },
+      "siapy/transformations/__init__.py": {
+        "checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/transformations/corregistrator.py": {
+        "checksum": "e69a000cb8527c48400eba61db3ea9cc",
+        "language": "Python",
+        "loc": 78,
+        "profile": [15, 20, 43, 0],
+        "measurements": [
+          {"unit_name": "map_affine_approx_2d", "start": {"line": 16, "column": 1}, "end": {"line": 24, "column": 19}, "value": 8},
+          {"unit_name": "affine_matx_2d", "start": {"line": 27, "column": 1}, "end": {"line": 46, "column": 19}, "value": 20},
+          {"unit_name": "align", "start": {"line": 49, "column": 1}, "end": {"line": 103, "column": 39}, "value": 43},
+          {"unit_name": "transform", "start": {"line": 106, "column": 1}, "end": {"line": 112, "column": 52}, "value": 7}
+        ]
+      },
+      "siapy/entities/signatures.py": {
+        "checksum": "af0ef473297dcef854ce19cb14c25cd5",
+        "language": "Python",
+        "loc": 65,
+        "profile": [65, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "load_from_parquet", "start": {"line": 23, "column": 5}, "end": {"line": 25, "column": 23}, "value": 3},
+          {"unit_name": "df", "start": {"line": 28, "column": 5}, "end": {"line": 29, "column": 26}, "value": 2},
+          {"unit_name": "to_numpy", "start": {"line": 31, "column": 5}, "end": {"line": 32, "column": 34}, "value": 2},
+          {"unit_name": "mean", "start": {"line": 34, "column": 5}, "end": {"line": 35, "column": 51}, "value": 2},
+          {"unit_name": "save_to_parquet", "start": {"line": 37, "column": 5}, "end": {"line": 38, "column": 49}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 43, "column": 5}, "end": {"line": 45, "column": 31}, "value": 3},
+          {"unit_name": "build", "start": {"line": 47, "column": 5}, "end": {"line": 48, "column": 61}, "value": 2},
+          {"unit_name": "rows", "start": {"line": 50, "column": 5}, "end": {"line": 55, "column": 67}, "value": 6},
+          {"unit_name": "cols", "start": {"line": 57, "column": 5}, "end": {"line": 60, "column": 63}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 68, "column": 5}, "end": {"line": 69, "column": 52}, "value": 2},
+          {"unit_name": "_create", "start": {"line": 72, "column": 5}, "end": {"line": 76, "column": 24}, "value": 5},
+          {"unit_name": "from_array_and_pixels", "start": {"line": 79, "column": 5}, "end": {"line": 84, "column": 44}, "value": 6},
+          {"unit_name": "from_dataframe", "start": {"line": 87, "column": 5}, "end": {"line": 97, "column": 44}, "value": 11},
+          {"unit_name": "load_from_parquet", "start": {"line": 100, "column": 5}, "end": {"line": 102, "column": 38}, "value": 3},
+          {"unit_name": "pixels", "start": {"line": 105, "column": 5}, "end": {"line": 106, "column": 28}, "value": 2},
+          {"unit_name": "signals", "start": {"line": 109, "column": 5}, "end": {"line": 110, "column": 29}, "value": 2},
+          {"unit_name": "to_dataframe", "start": {"line": 112, "column": 5}, "end": {"line": 113, "column": 68}, "value": 2},
+          {"unit_name": "to_numpy", "start": {"line": 115, "column": 5}, "end": {"line": 116, "column": 46}, "value": 2},
+          {"unit_name": "filter", "start": {"line": 118, "column": 5}, "end": {"line": 119, "column": 59}, "value": 2},
+          {"unit_name": "save_to_parquet", "start": {"line": 121, "column": 5}, "end": {"line": 122, "column": 61}, "value": 2}
+        ]
+      },
+      "siapy/entities/shapes.py": {
+        "checksum": "56c97698647dda555654325b1ff5604c",
+        "language": "Python",
+        "loc": 68,
+        "profile": [44, 24, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 27, "column": 5}, "end": {"line": 35, "column": 28}, "value": 9},
+          {"unit_name": "from_shape_type", "start": {"line": 38, "column": 5}, "end": {"line": 61, "column": 14}, "value": 24},
+          {"unit_name": "shape_type", "start": {"line": 64, "column": 5}, "end": {"line": 65, "column": 32}, "value": 2},
+          {"unit_name": "pixels", "start": {"line": 68, "column": 5}, "end": {"line": 69, "column": 28}, "value": 2},
+          {"unit_name": "label", "start": {"line": 72, "column": 5}, "end": {"line": 73, "column": 27}, "value": 2},
+          {"unit_name": "convex_hull", "start": {"line": 76, "column": 5}, "end": {"line": 77, "column": 80}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 81, "column": 5}, "end": {"line": 82, "column": 62}, "value": 2},
+          {"unit_name": "convex_hull", "start": {"line": 84, "column": 5}, "end": {"line": 93, "column": 51}, "value": 8},
+          {"unit_name": "__init__", "start": {"line": 97, "column": 5}, "end": {"line": 98, "column": 58}, "value": 2},
+          {"unit_name": "convex_hull", "start": {"line": 100, "column": 5}, "end": {"line": 101, "column": 27}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 105, "column": 5}, "end": {"line": 106, "column": 61}, "value": 2},
+          {"unit_name": "convex_hull", "start": {"line": 108, "column": 5}, "end": {"line": 124, "column": 60}, "value": 11}
+        ]
+      },
+      "siapy/entities/__init__.py": {
+        "checksum": "7ae4a250f56d71d85e761f3f85d73053",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/entities/imagesets.py": {
+        "checksum": "e6d88fa4c2f0886be964fd578e7b0f01",
+        "language": "Python",
+        "loc": 51,
+        "profile": [20, 0, 31, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 20, "column": 5}, "end": {"line": 21, "column": 78}, "value": 2},
+          {"unit_name": "__len__", "start": {"line": 23, "column": 5}, "end": {"line": 24, "column": 32}, "value": 2},
+          {"unit_name": "__str__", "start": {"line": 26, "column": 5}, "end": {"line": 27, "column": 86}, "value": 2},
+          {"unit_name": "__iter__", "start": {"line": 29, "column": 5}, "end": {"line": 30, "column": 33}, "value": 2},
+          {"unit_name": "__getitem__", "start": {"line": 32, "column": 5}, "end": {"line": 33, "column": 34}, "value": 2},
+          {"unit_name": "from_paths", "start": {"line": 36, "column": 5}, "end": {"line": 67, "column": 36}, "value": 31},
+          {"unit_name": "images", "start": {"line": 70, "column": 5}, "end": {"line": 71, "column": 28}, "value": 2},
+          {"unit_name": "cameras_id", "start": {"line": 74, "column": 5}, "end": {"line": 75, "column": 64}, "value": 2},
+          {"unit_name": "images_by_camera_id", "start": {"line": 77, "column": 5}, "end": {"line": 80, "column": 82}, "value": 4},
+          {"unit_name": "sort", "start": {"line": 82, "column": 5}, "end": {"line": 83, "column": 51}, "value": 2}
+        ]
+      },
+      "siapy/entities/pixels.py": {
+        "checksum": "7799b27552d25155bc3c18d825464d8a",
+        "language": "Python",
+        "loc": 31,
+        "profile": [31, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__len__", "start": {"line": 24, "column": 5}, "end": {"line": 25, "column": 28}, "value": 2},
+          {"unit_name": "from_iterable", "start": {"line": 28, "column": 5}, "end": {"line": 39, "column": 23}, "value": 12},
+          {"unit_name": "load_from_parquet", "start": {"line": 42, "column": 5}, "end": {"line": 44, "column": 23}, "value": 3},
+          {"unit_name": "df", "start": {"line": 47, "column": 5}, "end": {"line": 48, "column": 26}, "value": 2},
+          {"unit_name": "df_homogenious", "start": {"line": 50, "column": 5}, "end": {"line": 53, "column": 23}, "value": 4},
+          {"unit_name": "u", "start": {"line": 55, "column": 5}, "end": {"line": 56, "column": 40}, "value": 2},
+          {"unit_name": "v", "start": {"line": 58, "column": 5}, "end": {"line": 59, "column": 40}, "value": 2},
+          {"unit_name": "to_numpy", "start": {"line": 61, "column": 5}, "end": {"line": 62, "column": 34}, "value": 2},
+          {"unit_name": "save_to_parquet", "start": {"line": 64, "column": 5}, "end": {"line": 65, "column": 49}, "value": 2}
+        ]
+      },
+      "siapy/entities/images.py": {
+        "checksum": "c1fee52efba829a79c1365bf1ae2914e",
+        "language": "Python",
+        "loc": 229,
+        "profile": [163, 66, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 29, "column": 5}, "end": {"line": 35, "column": 10}, "value": 7},
+          {"unit_name": "__iter__", "start": {"line": 37, "column": 5}, "end": {"line": 38, "column": 33}, "value": 2},
+          {"unit_name": "__getitem__", "start": {"line": 40, "column": 5}, "end": {"line": 41, "column": 34}, "value": 2},
+          {"unit_name": "__setitem__", "start": {"line": 43, "column": 5}, "end": {"line": 45, "column": 46}, "value": 3},
+          {"unit_name": "__len__", "start": {"line": 47, "column": 5}, "end": {"line": 48, "column": 43}, "value": 2},
+          {"unit_name": "__eq__", "start": {"line": 50, "column": 5}, "end": {"line": 56, "column": 10}, "value": 7},
+          {"unit_name": "shapes", "start": {"line": 59, "column": 5}, "end": {"line": 60, "column": 45}, "value": 2},
+          {"unit_name": "shapes", "start": {"line": 63, "column": 5}, "end": {"line": 65, "column": 40}, "value": 3},
+          {"unit_name": "append", "start": {"line": 67, "column": 5}, "end": {"line": 69, "column": 45}, "value": 3},
+          {"unit_name": "extend", "start": {"line": 71, "column": 5}, "end": {"line": 73, "column": 46}, "value": 3},
+          {"unit_name": "insert", "start": {"line": 75, "column": 5}, "end": {"line": 77, "column": 52}, "value": 3},
+          {"unit_name": "remove", "start": {"line": 79, "column": 5}, "end": {"line": 81, "column": 45}, "value": 3},
+          {"unit_name": "pop", "start": {"line": 83, "column": 5}, "end": {"line": 84, "column": 49}, "value": 2},
+          {"unit_name": "clear", "start": {"line": 86, "column": 5}, "end": {"line": 87, "column": 39}, "value": 2},
+          {"unit_name": "index", "start": {"line": 89, "column": 5}, "end": {"line": 91, "column": 64}, "value": 3},
+          {"unit_name": "count", "start": {"line": 93, "column": 5}, "end": {"line": 95, "column": 51}, "value": 3},
+          {"unit_name": "reverse", "start": {"line": 97, "column": 5}, "end": {"line": 98, "column": 41}, "value": 2},
+          {"unit_name": "sort", "start": {"line": 100, "column": 5}, "end": {"line": 101, "column": 62}, "value": 2},
+          {"unit_name": "get_by_name", "start": {"line": 103, "column": 5}, "end": {"line": 107, "column": 38}, "value": 5},
+          {"unit_name": "_check_shape_type", "start": {"line": 109, "column": 5}, "end": {"line": 130, "column": 14}, "value": 21},
+          {"unit_name": "__init__", "start": {"line": 135, "column": 5}, "end": {"line": 139, "column": 73}, "value": 5},
+          {"unit_name": "__repr__", "start": {"line": 141, "column": 5}, "end": {"line": 142, "column": 35}, "value": 2},
+          {"unit_name": "__str__", "start": {"line": 144, "column": 5}, "end": {"line": 145, "column": 34}, "value": 2},
+          {"unit_name": "__lt__", "start": {"line": 147, "column": 5}, "end": {"line": 148, "column": 56}, "value": 2},
+          {"unit_name": "__eq__", "start": {"line": 150, "column": 5}, "end": {"line": 156, "column": 10}, "value": 7},
+          {"unit_name": "envi_open", "start": {"line": 159, "column": 5}, "end": {"line": 172, "column": 28}, "value": 14},
+          {"unit_name": "file", "start": {"line": 175, "column": 5}, "end": {"line": 176, "column": 29}, "value": 2},
+          {"unit_name": "filepath", "start": {"line": 179, "column": 5}, "end": {"line": 180, "column": 44}, "value": 2},
+          {"unit_name": "metadata", "start": {"line": 183, "column": 5}, "end": {"line": 184, "column": 38}, "value": 2},
+          {"unit_name": "shape", "start": {"line": 187, "column": 5}, "end": {"line": 191, "column": 38}, "value": 5},
+          {"unit_name": "rows", "start": {"line": 194, "column": 5}, "end": {"line": 195, "column": 35}, "value": 2},
+          {"unit_name": "cols", "start": {"line": 198, "column": 5}, "end": {"line": 199, "column": 35}, "value": 2},
+          {"unit_name": "bands", "start": {"line": 202, "column": 5}, "end": {"line": 203, "column": 36}, "value": 2},
+          {"unit_name": "default_bands", "start": {"line": 206, "column": 5}, "end": {"line": 208, "column": 34}, "value": 3},
+          {"unit_name": "wavelengths", "start": {"line": 211, "column": 5}, "end": {"line": 213, "column": 49}, "value": 3},
+          {"unit_name": "description", "start": {"line": 216, "column": 5}, "end": {"line": 218, "column": 51}, "value": 3},
+          {"unit_name": "camera_id", "start": {"line": 221, "column": 5}, "end": {"line": 222, "column": 46}, "value": 2},
+          {"unit_name": "geometric_shapes", "start": {"line": 225, "column": 5}, "end": {"line": 226, "column": 38}, "value": 2},
+          {"unit_name": "to_display", "start": {"line": 228, "column": 5}, "end": {"line": 238, "column": 21}, "value": 11},
+          {"unit_name": "to_numpy", "start": {"line": 240, "column": 5}, "end": {"line": 244, "column": 21}, "value": 5},
+          {"unit_name": "to_signatures", "start": {"line": 246, "column": 5}, "end": {"line": 249, "column": 26}, "value": 4},
+          {"unit_name": "to_subarray", "start": {"line": 251, "column": 5}, "end": {"line": 266, "column": 30}, "value": 13},
+          {"unit_name": "mean", "start": {"line": 268, "column": 5}, "end": {"line": 272, "column": 48}, "value": 5},
+          {"unit_name": "_remove_nan", "start": {"line": 274, "column": 5}, "end": {"line": 277, "column": 21}, "value": 4},
+          {"unit_name": "_parse_description", "start": {"line": 280, "column": 1}, "end": {"line": 325, "column": 17}, "value": 28},
+          {"unit_name": "_parse", "start": {"line": 281, "column": 5}, "end": {"line": 297, "column": 25}, "value": 17}
+        ]
+      },
+      "siapy/datasets/helpers.py": {
+        "checksum": "9fdb6db47414fc36b0092bc546ecbee3",
+        "language": "Python",
+        "loc": 23,
+        "profile": [23, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "generate_classification_target", "start": {"line": 15, "column": 1}, "end": {"line": 33, "column": 79}, "value": 15},
+          {"unit_name": "generate_regression_target", "start": {"line": 36, "column": 1}, "end": {"line": 42, "column": 76}, "value": 6},
+          {"unit_name": "merge_signals_from_multiple_cameras", "start": {"line": 45, "column": 1}, "end": {"line": 46, "column": 24}, "value": 2}
+        ]
+      },
+      "siapy/datasets/schemas.py": {
+        "checksum": "e9f14b3e6ededfd9ccd80ad340e8dc59",
+        "language": "Python",
+        "loc": 122,
+        "profile": [104, 18, 0, 0],
+        "measurements": [
+          {"unit_name": "__getitem__", "start": {"line": 51, "column": 5}, "end": {"line": 54, "column": 86}, "value": 4},
+          {"unit_name": "__len__", "start": {"line": 56, "column": 5}, "end": {"line": 57, "column": 31}, "value": 2},
+          {"unit_name": "from_iterable", "start": {"line": 60, "column": 5}, "end": {"line": 62, "column": 62}, "value": 3},
+          {"unit_name": "from_dict", "start": {"line": 65, "column": 5}, "end": {"line": 69, "column": 64}, "value": 5},
+          {"unit_name": "to_dict", "start": {"line": 71, "column": 5}, "end": {"line": 76, "column": 10}, "value": 6},
+          {"unit_name": "to_dataframe", "start": {"line": 78, "column": 5}, "end": {"line": 79, "column": 59}, "value": 2},
+          {"unit_name": "reset_index", "start": {"line": 81, "column": 5}, "end": {"line": 86, "column": 10}, "value": 6},
+          {"unit_name": "__getitem__", "start": {"line": 93, "column": 5}, "end": {"line": 95, "column": 61}, "value": 3},
+          {"unit_name": "__len__", "start": {"line": 97, "column": 5}, "end": {"line": 98, "column": 31}, "value": 2},
+          {"unit_name": "from_iterable", "start": {"line": 101, "column": 5}, "end": {"line": 103, "column": 58}, "value": 3},
+          {"unit_name": "from_dict", "start": {"line": 106, "column": 5}, "end": {"line": 109, "column": 43}, "value": 4},
+          {"unit_name": "to_dict", "start": {"line": 111, "column": 5}, "end": {"line": 115, "column": 10}, "value": 5},
+          {"unit_name": "to_dataframe", "start": {"line": 117, "column": 5}, "end": {"line": 118, "column": 40}, "value": 2},
+          {"unit_name": "reset_index", "start": {"line": 120, "column": 5}, "end": {"line": 121, "column": 89}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 131, "column": 5}, "end": {"line": 133, "column": 33}, "value": 3},
+          {"unit_name": "__setattr__", "start": {"line": 135, "column": 5}, "end": {"line": 138, "column": 37}, "value": 4},
+          {"unit_name": "__getitem__", "start": {"line": 140, "column": 5}, "end": {"line": 147, "column": 10}, "value": 8},
+          {"unit_name": "__len__", "start": {"line": 149, "column": 5}, "end": {"line": 150, "column": 32}, "value": 2},
+          {"unit_name": "from_dict", "start": {"line": 153, "column": 5}, "end": {"line": 158, "column": 85}, "value": 6},
+          {"unit_name": "target_from_dict", "start": {"line": 161, "column": 5}, "end": {"line": 174, "column": 66}, "value": 12},
+          {"unit_name": "_validate_lengths", "start": {"line": 176, "column": 5}, "end": {"line": 193, "column": 14}, "value": 18},
+          {"unit_name": "to_dict", "start": {"line": 195, "column": 5}, "end": {"line": 201, "column": 10}, "value": 7},
+          {"unit_name": "to_dataframe", "start": {"line": 203, "column": 5}, "end": {"line": 208, "column": 27}, "value": 6},
+          {"unit_name": "reset_index", "start": {"line": 210, "column": 5}, "end": {"line": 216, "column": 10}, "value": 7}
+        ]
+      },
+      "siapy/datasets/__init__.py": {
+        "checksum": "429a856b5425ef810b9c3e5a7572b74e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/datasets/tabular.py": {
+        "checksum": "06de9d5d57092af76cfddd53964e5c58",
+        "language": "Python",
+        "loc": 77,
+        "profile": [45, 0, 32, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 34, "column": 5}, "end": {"line": 40, "column": 58}, "value": 7},
+          {"unit_name": "__len__", "start": {"line": 42, "column": 5}, "end": {"line": 43, "column": 39}, "value": 2},
+          {"unit_name": "__str__", "start": {"line": 45, "column": 5}, "end": {"line": 46, "column": 84}, "value": 2},
+          {"unit_name": "__iter__", "start": {"line": 48, "column": 5}, "end": {"line": 50, "column": 40}, "value": 3},
+          {"unit_name": "__getitem__", "start": {"line": 52, "column": 5}, "end": {"line": 54, "column": 41}, "value": 3},
+          {"unit_name": "image_set", "start": {"line": 57, "column": 5}, "end": {"line": 58, "column": 31}, "value": 2},
+          {"unit_name": "data_entities", "start": {"line": 61, "column": 5}, "end": {"line": 62, "column": 35}, "value": 2},
+          {"unit_name": "process_image_data", "start": {"line": 64, "column": 5}, "end": {"line": 78, "column": 50}, "value": 15},
+          {"unit_name": "generate_dataset_data", "start": {"line": 80, "column": 5}, "end": {"line": 116, "column": 10}, "value": 32},
+          {"unit_name": "_check_data_entities", "start": {"line": 118, "column": 5}, "end": {"line": 126, "column": 14}, "value": 9}
+        ]
+      },
+      "siapy/core/exceptions.py": {
+        "checksum": "2df393cfd8ff5989ed2b0f2fe531bdac",
+        "language": "Python",
+        "loc": 43,
+        "profile": [43, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 18, "column": 5}, "end": {"line": 21, "column": 50}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 27, "column": 5}, "end": {"line": 29, "column": 56}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 35, "column": 5}, "end": {"line": 38, "column": 54}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 44, "column": 5}, "end": {"line": 56, "column": 10}, "value": 13},
+          {"unit_name": "__init__", "start": {"line": 62, "column": 5}, "end": {"line": 64, "column": 34}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 70, "column": 5}, "end": {"line": 72, "column": 34}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 78, "column": 5}, "end": {"line": 83, "column": 10}, "value": 6},
+          {"unit_name": "__init__", "start": {"line": 89, "column": 5}, "end": {"line": 96, "column": 10}, "value": 7}
+        ]
+      },
+      "siapy/core/logger.py": {
+        "checksum": "48d4339b191fc72c95de09c0b1ca0447",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/core/__init__.py": {
+        "checksum": "e619b8992d4a25c3c3fb9e67665c2e42",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/core/configs.py": {
+        "checksum": "ddd7ea032950d07a3f721f17feeba85d",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/core/types.py": {
+        "checksum": "0575b85e81c588e41bebd9baed3d09fb",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/utils/validators.py": {
+        "checksum": "e0eed9737462e086cf153dafc01277d3",
+        "language": "Python",
+        "loc": 48,
+        "profile": [48, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "validate_image_to_numpy_3channels", "start": {"line": 21, "column": 1}, "end": {"line": 35, "column": 25}, "value": 15},
+          {"unit_name": "validate_image_to_numpy", "start": {"line": 38, "column": 1}, "end": {"line": 50, "column": 20}, "value": 13},
+          {"unit_name": "validate_image_size", "start": {"line": 53, "column": 1}, "end": {"line": 67, "column": 23}, "value": 15},
+          {"unit_name": "check_model_prediction_methods", "start": {"line": 70, "column": 1}, "end": {"line": 74, "column": 78}, "value": 5}
+        ]
+      },
+      "siapy/utils/plots.py": {
+        "checksum": "1b4c9a8b97114d8926e8ebc8652ea666",
+        "language": "Python",
+        "loc": 238,
+        "profile": [75, 66, 34, 63],
+        "measurements": [
+          {"unit_name": "pixels_select_click", "start": {"line": 28, "column": 1}, "end": {"line": 70, "column": 45}, "value": 15},
+          {"unit_name": "onclick", "start": {"line": 37, "column": 5}, "end": {"line": 50, "column": 26}, "value": 13},
+          {"unit_name": "accept", "start": {"line": 52, "column": 5}, "end": {"line": 57, "column": 24}, "value": 6},
+          {"unit_name": "onexit", "start": {"line": 59, "column": 5}, "end": {"line": 64, "column": 24}, "value": 6},
+          {"unit_name": "pixels_select_lasso", "start": {"line": 73, "column": 1}, "end": {"line": 133, "column": 26}, "value": 34},
+          {"unit_name": "onselect", "start": {"line": 91, "column": 5}, "end": {"line": 95, "column": 56}, "value": 5},
+          {"unit_name": "onrelease", "start": {"line": 97, "column": 5}, "end": {"line": 99, "column": 37}, "value": 3},
+          {"unit_name": "onexit", "start": {"line": 101, "column": 5}, "end": {"line": 106, "column": 24}, "value": 6},
+          {"unit_name": "accept", "start": {"line": 108, "column": 5}, "end": {"line": 113, "column": 24}, "value": 6},
+          {"unit_name": "display_image_with_areas", "start": {"line": 136, "column": 1}, "end": {"line": 159, "column": 15}, "value": 21},
+          {"unit_name": "display_multiple_images_with_areas", "start": {"line": 162, "column": 1}, "end": {"line": 194, "column": 16}, "value": 28},
+          {"unit_name": "interactive_buttons", "start": {"line": 197, "column": 1}, "end": {"line": 229, "column": 16}, "value": 17},
+          {"unit_name": "repeat", "start": {"line": 200, "column": 5}, "end": {"line": 204, "column": 45}, "value": 5},
+          {"unit_name": "save", "start": {"line": 206, "column": 5}, "end": {"line": 210, "column": 43}, "value": 5},
+          {"unit_name": "skip", "start": {"line": 212, "column": 5}, "end": {"line": 216, "column": 43}, "value": 5},
+          {"unit_name": "display_signals", "start": {"line": 232, "column": 1}, "end": {"line": 305, "column": 15}, "value": 63}
+        ]
+      },
+      "siapy/utils/__init__.py": {
+        "checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/utils/enums.py": {
+        "checksum": "8271bffd16080f080b5e57719e0a4686",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "siapy/utils/general.py": {
+        "checksum": "6bed73d7c127fd5099d1c4a48dd117ea",
+        "language": "Python",
+        "loc": 90,
+        "profile": [71, 19, 0, 0],
+        "measurements": [
+          {"unit_name": "initialize_object", "start": {"line": 28, "column": 1}, "end": {"line": 40, "column": 62}, "value": 13},
+          {"unit_name": "initialize_function", "start": {"line": 43, "column": 1}, "end": {"line": 55, "column": 71}, "value": 13},
+          {"unit_name": "ensure_dir", "start": {"line": 58, "column": 1}, "end": {"line": 62, "column": 19}, "value": 5},
+          {"unit_name": "get_number_cpus", "start": {"line": 65, "column": 1}, "end": {"line": 77, "column": 23}, "value": 13},
+          {"unit_name": "dict_zip", "start": {"line": 80, "column": 1}, "end": {"line": 91, "column": 67}, "value": 10},
+          {"unit_name": "get_increasing_seq_indices", "start": {"line": 94, "column": 1}, "end": {"line": 101, "column": 19}, "value": 8},
+          {"unit_name": "set_random_seed", "start": {"line": 104, "column": 1}, "end": {"line": 106, "column": 25}, "value": 3},
+          {"unit_name": "get_classmethods", "start": {"line": 109, "column": 1}, "end": {"line": 114, "column": 6}, "value": 6},
+          {"unit_name": "match_iterable_items_by_regex", "start": {"line": 117, "column": 1}, "end": {"line": 135, "column": 28}, "value": 19}
+        ]
+      },
+      "siapy/utils/evaluators.py": {
+        "checksum": "11249b4369120332adea6f4df7949417",
+        "language": "Python",
+        "loc": 76,
+        "profile": [0, 0, 76, 0],
+        "measurements": [
+          {"unit_name": "cross_validation", "start": {"line": 26, "column": 1}, "end": {"line": 61, "column": 24}, "value": 36},
+          {"unit_name": "hold_out_validation", "start": {"line": 64, "column": 1}, "end": {"line": 104, "column": 17}, "value": 40}
+        ]
+      },
+      "siapy/utils/images.py": {
+        "checksum": "56521a76b27458a47515f4da6d8f7fab",
+        "language": "Python",
+        "loc": 198,
+        "profile": [19, 49, 130, 0],
+        "measurements": [
+          {"unit_name": "save_image", "start": {"line": 26, "column": 1}, "end": {"line": 58, "column": 49}, "value": 32},
+          {"unit_name": "create_image", "start": {"line": 61, "column": 1}, "end": {"line": 99, "column": 41}, "value": 38},
+          {"unit_name": "merge_images_by_specter", "start": {"line": 102, "column": 1}, "end": {"line": 168, "column": 6}, "value": 60},
+          {"unit_name": "convert_radiance_image_to_reflectance", "start": {"line": 171, "column": 1}, "end": {"line": 185, "column": 6}, "value": 14},
+          {"unit_name": "calculate_correction_factor_from_panel", "start": {"line": 188, "column": 1}, "end": {"line": 214, "column": 28}, "value": 25},
+          {"unit_name": "blockfy_image", "start": {"line": 217, "column": 1}, "end": {"line": 248, "column": 24}, "value": 24},
+          {"unit_name": "calculate_image_background_percentage", "start": {"line": 251, "column": 1}, "end": {"line": 257, "column": 22}, "value": 5}
+        ]
+      }
+    }
+  }
+}
